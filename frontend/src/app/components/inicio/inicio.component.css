@@ -1,0 +1,727 @@
+section { padding: 120px 0; }
+
+
+
+
+/* line 114, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_btn.scss */
+.boxed_btn_green {
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 30px;
+  background: #00D363;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 124, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_btn.scss */
+.boxed_btn_green:hover {
+  background: transparent;
+  color: #00D363;
+  border: 1px solid #00D363;
+  color: #00D363 !important;
+}
+
+/* line 132, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_btn.scss */
+.boxed_btn_green2 {
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  background: transparent;
+  color: #00D363;
+  border: 1px solid #00D363;
+  display: inline-block;
+}
+
+/* line 144, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_btn.scss */
+.boxed_btn_green2:hover {
+  color: #fff !important;
+  background: #00D363;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/** about **/
+.about {
+  padding: 90px 0;
+}
+
+.about .about_img figure {
+  margin: 0px;
+}
+
+.about .about_box {
+  text-align: left;
+
+}
+
+.about .about_box h2 {
+  font-weight: 500;
+  font-size: 43px;
+  color: #163f03;
+  line-height: 55px;
+  padding-bottom: 7px;
+ display: block;
+ text-transform: uppercase;
+     padding: 0px 0px 6px 0px;
+         border-bottom: #163f03 solid 1px;
+}
+
+.about .about_box p {
+  font-size: 17px;
+  line-height: 33px;
+  color: #4c4a49;
+  padding: 40px 0px;
+  font-weight: 500;
+}
+.about .about_box a {
+      color: #fff;
+ font-size: 17px;
+ line-height: 29px;
+ background: #052501;
+ border: #052501 solid 1px;
+ padding: 12px 40px;
+ display: inline-block;
+ width: 231px;
+text-align: center;
+border-radius: 18px;
+}
+.about .about_box a:hover {
+ color: #fff;
+ background: #4bc714;
+ border: #4bc714 solid 1px;
+}
+.about_img {margin-top: 25px;}
+.about_img figure {margin: 0;}
+.about_img figure img {width: 100%;}
+/** end about **/
+
+
+/** for_box **/
+.for_box_bg {
+  background: #052501;
+   padding: 70px 0px;
+}
+.for_box_bg .for_box {
+  text-align: center;
+  box-sizing: border-box;
+}
+.for_box_bg .for_box span {
+  font-weight: bold;
+  font-size:51px;
+  line-height: 51px;
+  color: #4bc714;
+  display: block;
+  padding: 20px 0px;
+}
+.for_box_bg .for_box h3  {font-size: 30px; line-height: 33px; color: #fff;}
+
+
+/** vegetable section **/
+.vegetable {
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+.vegetable_shop h3 {
+font-size: 31px;
+line-height: 35px;
+color: #000;
+font-weight: 500;
+padding-bottom: 17px;
+display: block;
+}
+
+
+.vegetable_shop p {
+
+  font-size: 17px;
+  line-height: 28px;
+  color: #000;
+}
+
+
+.vegetable_img span {
+ z-index: 999;
+ display: flex;
+ align-content: center;
+ align-items: center;
+ right: 0;
+ top: 44%;
+ background: #428713;
+ padding: 19px 27px;
+ border-radius: 88px;
+ margin-right: -20px;
+ position: absolute;
+ color: #fff;
+ font-size: 19px;
+}
+
+.margin_top span {
+ z-index: 999;
+ display: flex;
+ align-content: center;
+ align-items: center;
+ right: 0;
+ top: 27%;
+ background: #428713;
+ padding: 19px 25px;
+ border-radius: 88px;
+ margin-right: -20px;
+ position: absolute;
+ color: #fff;
+ font-size: 19px;
+}
+.vegetable_img figure {margin: 0;}
+.vegetable_img figure img {width: 100%}
+.margin_top {
+ margin-top: -90px;
+}
+
+
+
+/** end vegetable section **/
+
+
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.service {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+
+.service .service-item {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service .service-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.service .service-img img {
+  width: 100%;
+}
+
+.service .service-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(3, 15, 39, .7);
+  transition: .5s;
+  opacity: 0;
+}
+
+.service .service-item:hover .service-overlay {
+  opacity: 1;
+}
+
+.service .service-overlay p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.service .service-text {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: #030f27;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.service .service-text h3 {
+  margin: 0;
+  padding: 0 15px 0 25px;
+  width: calc(100% - 60px);
+  font-size: 20px;
+  font-weight: 700;
+  color: #fdbe33;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.service .service-item a.btn {
+  width: 60px;
+  height: 60px;
+  padding: 3px 0 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 100;
+  color: #030f27;
+  background: #fdbe33;
+  border-radius: 0;
+  transition: .3s;
+}
+
+.service .service-item:hover a.btn {
+  color: #ffffff;
+}
+
+/**/
+
+.project_section {
+  width: 100%;
+  float: left;
+  background-image: url(../../../assets/teodor-kuduschiev-H8_Nlhv-6Wc-unsplash.jpg);
+  height: auto;
+  background-size: 100%;
+  margin-top: 70px;
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+}
+
+.partner_text {
+  width: 100%;
+  float: left;
+  font-size: 70px;
+  color: #fffcf4;
+  font-weight: bold;
+}
+
+.lorem_ipsum_text {
+  width: 61%;
+  float: left;
+  color: #fffcf4;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.choice_main {
+  width: 100%;
+  float: left;
+}
+
+.choose_bt {
+  width: 18%;
+  float: left;
+  background-color: #fe6703;
+  color: #fffcf4;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 14px;
+}
+.choose_bt a {
+  color: #ffffff;
+}
+.choose_bt a:hover{
+color: #000;
+}
+
+/* line 1, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area {
+  padding-top: 190px;
+}
+
+@media (max-width: 767px) {
+  /* line 1, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area {
+    padding-top: 60px;
+  }
+}
+
+/* line 6, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area .accordion_heading {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  /* line 6, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area .accordion_heading {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 6, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area .accordion_heading {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 14, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area .accordion_heading h3 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  /* line 14, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area .accordion_heading h3 {
+    font-size: 28px;
+  }
+}
+
+/* line 27, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area #accordion .card h5 button {
+  font-size: 24px;
+  font-weight: 400;
+  color: #2E004B;
+}
+
+@media (max-width: 767px) {
+  /* line 27, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area #accordion .card h5 button {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 27, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area #accordion .card h5 button {
+    font-size: 18px;
+  }
+}
+
+/* line 37, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area #accordion .card h5 button i {
+  color: #00D363;
+  padding-right: 15px;
+}
+
+/* line 44, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area #accordion .card .card-body {
+  padding: 0 0 40px 76px;
+}
+
+/* line 48, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area #accordion .card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  background: #fff !important;
+  border: 1px solid #E9E5EC;
+  border: 5px;
+  margin-bottom: 30px;
+  border: 1px solid #E9E5EC;
+}
+
+/* line 68, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area #accordion .card .card-header {
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: none;
+  padding: 14px 0 16px 14px;
+}
+
+@media (max-width: 767px) {
+  /* line 74, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+  .faq_area #accordion .card .card-header span {
+    display: none;
+  }
+}
+
+/* line 82, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area .btn-link.focus, .faq_area .btn-link:focus {
+  text-decoration: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* line 87, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_faq.scss */
+.faq_area .btn-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* line 1, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.launch_bg_1 {
+  background-image: url(../../../assets/teodor-kuduschiev-H8_Nlhv-6Wc-unsplash.jpg);
+}
+
+/* line 4, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.lets_launch {
+  padding: 180px 0;
+  position: relative;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 767px) {
+  /* line 4, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+  .lets_launch {
+    padding: 100px 0;
+  }
+}
+
+/* line 15, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.lets_launch .launch_text h3 {
+  font-size: 42px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  /* line 15, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+  .lets_launch .launch_text h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 22, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.lets_launch .launch_text p {
+  font-size: 16px;
+  color: #fff;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 28px;
+  margin-bottom: 44px;
+}
+
+@media (max-width: 767px) {
+  /* line 29, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+  .lets_launch .launch_text p br {
+    display: none;
+  }
+}
+
+/* line 37, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.lets_launch .launch_text .chat a {
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 37, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+  .lets_launch .launch_text .chat a {
+    margin: 10px 0;
+  }
+}
+
+/* line 43, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.lets_launch .launch_text .chat .boxed_btn_green2 {
+  color: #fff !important;
+  border-color: #fff !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+/* line 49, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_launch.scss */
+.lets_launch .launch_text .chat .boxed_btn_green2:hover {
+  border-color: #00D363 !important;
+}
+
+/* footer inicio */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/* footer cierre */

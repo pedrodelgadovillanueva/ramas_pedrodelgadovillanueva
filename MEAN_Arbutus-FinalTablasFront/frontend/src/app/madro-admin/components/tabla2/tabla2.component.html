@@ -1,0 +1,47 @@
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Tabla Comarostaphylis</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">TABLA2</li>
+    </ol>
+  </div>
+  
+  
+  
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Especie</th>
+        <th scope="col">Imagen</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Habito</th>
+        <th scope="col">peciolos Ramillas</th>
+        <th scope="col">Hojas Duracion Textura</th>
+        <th scope="col">Hojas Anchas</th>
+        <th scope="col">Hojas Margen</th>
+        <th scope="col">Hojas Enves</th>
+        <th scope="col">Inflorescencia</th>
+        <th scope="col">flores</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let comarosta of comarosta let i=index">
+        <th scope="row">{{i +1}}</th>
+        <td>{{comarosta.especie}}</td>
+        <td> <img [src]="'http://localhost:4000/' + comarosta.imagen" class="img-fluid" alt=""></td>
+        <td>{{comarosta.estado}}</td>
+        <td>{{comarosta.habito}}</td>
+        <td>{{comarosta.peciolos_ramillas}}</td>
+        <td>{{comarosta.hojas_Duracion_Textura}}</td>
+        <td>{{comarosta.hojas_Anchas}}</td>
+        <td>{{comarosta.hojas_Margen}}</td>
+        <td>{{comarosta.hojas_Enves}}</td>
+        <td>{{comarosta.inflorescencia}}</td>
+        <td>{{comarosta.flores}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+  
+

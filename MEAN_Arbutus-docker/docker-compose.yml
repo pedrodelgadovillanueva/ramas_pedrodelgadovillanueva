@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+
+  mongo-db:
+    image: mongo
+    ports:
+      - '27017:27017'
+
+  server:
+    build: .
+    image: sanjaysaini2000/meanstack_backend
+    ports:
+      - '5000:4000'
+    links:
+      - mongo-db
+
+  angular:
+    build: ./Arbutus-Mexico
+    image: sanjaysaini2000/meanstack_frontend
+    ports:
+      - '80:80'
+
